@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Clippy",
+  "description": "Allows us to tag any url in a web page so we can later recognize them.",
+  "version": "1.0.0",
+  "browser_action": {
+    "default_icon": "images/icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "contextMenus",
+    "storage",
+    "unlimitedStorage",
+    "notifications"
+  ],
+  "minimum_chrome_version" : "42.0.0.0",
+  "background": {
+    "scripts": [
+      "hot-reload.js",
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "optional_permissions": [ 
+    "tabs", 
+    "<all_urls>" 
+  ]
+}

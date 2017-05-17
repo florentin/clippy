@@ -1,0 +1,39 @@
+.tooltiptarget {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltiptarget .tooltiptext {
+    -moz-border-radius: 15px/15px;
+    -webkit-border-radius: 15px 15px;
+    border-radius: 15px/15px;
+    width: 15px;
+    height: 15px;
+  
+    visibility: visible;
+    top: 0px;
+    left: 0px;
+    opacity: 0.6;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1000000;
+}
+
+.tooltiptarget:hover .tooltiptext {
+    visibility: hidden;
+}
+
+.tooltippage {
+    position: absolute;
+    -moz-border-radius: 20px/20px;
+    -webkit-border-radius: 20px 20px;
+    border-radius: 20px/20px;
+    width: 20px;
+    height: 20px;
+    top: 0px;
+    left: 0px;
+    visibility: visible;
+    opacity: 0.6;
+    /* Position the tooltip */
+    z-index: 1000000;
+}
