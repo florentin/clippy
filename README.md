@@ -16,6 +16,7 @@ This tools might come in handy in some situations:
 * open the second search result link in a new tab, right click on the page (NOT on a link) and select 'X - Clippy > Mark page: GREEN'
 * go back to the search result page, refresh and notice how the other link is marked with a green circle.
 
-## Technical details
+## Details
 * all data is stored locally and it'll not sync with other browsers
 * to delete all stored data just disable the extension
+* doesn't work on any website, for example www.amazon.com keeps changing the urls at each page refresh so saved urls cannot be found in the reloaded page. 
